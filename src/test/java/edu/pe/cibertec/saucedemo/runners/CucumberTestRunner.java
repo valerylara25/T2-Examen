@@ -13,6 +13,6 @@ import org.junit.platform.suite.api.Suite;
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME,
         value = "edu.pe.cibertec.saucedemo.stepdefinitions,edu.pe.cibertec.saucedemo.hooks")
 @ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME,
-        value = "pretty, io.cucumber.core.plugin.SerenityReporter")
+        value = "pretty, io.cucumber.core.plugin.SerenityReporterParallel")
 public class CucumberTestRunner {
 }

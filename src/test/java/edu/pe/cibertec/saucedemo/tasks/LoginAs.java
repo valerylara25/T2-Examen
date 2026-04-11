@@ -8,7 +8,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.playwright.Target;
 import net.serenitybdd.screenplay.playwright.interactions.Click;
 import net.serenitybdd.screenplay.playwright.interactions.Enter;
-import org.openqa.selenium.Keys;
 
 public class LoginAs {
     private final String username;

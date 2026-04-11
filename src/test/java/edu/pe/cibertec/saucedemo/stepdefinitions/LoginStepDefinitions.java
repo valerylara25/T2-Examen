@@ -1,5 +1,6 @@
 package edu.pe.cibertec.saucedemo.stepdefinitions;
 
+import edu.pe.cibertec.saucedemo.questions.TheErrorMessage;
 import edu.pe.cibertec.saucedemo.questions.ThePageTitle;
 import edu.pe.cibertec.saucedemo.tasks.LoginAs;
 import edu.pe.cibertec.saucedemo.tasks.OpenTheLoginPage;
@@ -46,7 +47,7 @@ public class LoginStepDefinitions {
     @Then("she should see the error message {string}")
     public void shouldSeeTheErrorMessage(String errorMessage) {
         OnStage.theActorInTheSpotlight().should(
-                seeThat(ThePageTitle.displayed(), equalTo(errorMessage))
+                seeThat(TheErrorMessage.displayed(), equalTo(errorMessage))
         );
     }
 

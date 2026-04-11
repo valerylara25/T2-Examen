@@ -7,7 +7,6 @@ Feature: Login on SauceDemo
   Background:
     Given Alice is on the SauceDemo login page
 
-
   @login
   Scenario: Successful login with valid credentials
     When she logs in with username "standard_user" and password "secret_sauce"
