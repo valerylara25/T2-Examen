@@ -29,4 +29,5 @@ public class TestHooks {
         System.out.println("Finished Scenarios +"+ scenario.getName() + " | Status: " + scenario.getStatus());
         OnStage.drawTheCurtain();
     }
+
 }
